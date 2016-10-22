@@ -94,10 +94,10 @@ public class ProblemF
 
 		switch(d)
 		{
-			case up: 	offset = new Vector(0, -1); break;
+			case up: 	offset = new Vector(0, -1);	break;
 			case down: 	offset = new Vector(0, 1);	break;
-			case left: 	offset = new Vector(-1, 0); break;
-			case right: offset = new Vector(1, 0);	break;
+			case left: 	offset = new Vector(-1, 0);	break;
+			case right:	offset = new Vector(1, 0);	break;
 		}
 
 		while(true)
